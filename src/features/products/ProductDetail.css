@@ -1,0 +1,70 @@
+
+@media (max-width: 576px) {
+    .ant-card {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .ant-image {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+    }
+  
+    .ant-card p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  
+    .ant-card-cover {
+      text-align: center;
+    }
+  
+    .ant-list-item {
+      font-size: 12px;
+    }
+  
+    .button-group {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+  @media (max-width: 992px) {
+    .card {
+      width: 90%;
+    }
+  
+    .ant-card-cover img {
+      width: 150px;
+    }
+  }
+  
+  /* Media query for small devices */
+  @media (max-width: 768px) {
+    .card {
+      width: 95%;
+    }
+  
+    .ant-card-cover img {
+      width: 120px;
+    }
+  
+    .ant-card-body p {
+      font-size: 14px;
+    }
+  
+    .ant-list-item-meta-title {
+      font-size: 12px;
+    }
+  
+    .ant-list-item-meta-description {
+      font-size: 12px;
+    }
+  }
+  
+  
+  .ant-card-body p {
+    word-wrap: break-word;
+  }
